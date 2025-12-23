@@ -9,33 +9,33 @@
     // Component registry
     const COMPONENTS = {
         'scroll-progress': {
-            path: '/components/scroll-progress.html',
+            path: 'components/scroll-progress.html',
             target: 'prepend-body'
         },
         'nav': {
-            path: '/components/nav.html',
+            path: 'components/nav.html',
             target: 'prepend-body',
-            script: '/js/components/nav.js'
+            script: 'js/components/nav.js'
         },
         'footer': {
-            path: '/components/footer.html',
+            path: 'components/footer.html',
             target: 'append-body'
         },
         'back-to-top': {
-            path: '/components/back-to-top.html',
+            path: 'components/back-to-top.html',
             target: 'append-body',
-            script: '/js/components/back-to-top.js'
+            script: 'js/components/back-to-top.js'
         },
         'cookie-banner': {
-            path: '/components/cookie-banner.html',
+            path: 'components/cookie-banner.html',
             target: 'append-body',
-            script: '/js/components/cookie-banner.js'
+            script: 'js/components/cookie-banner.js'
         },
         'chatbot': {
-            path: '/components/chatbot/chatbot.html',
+            path: 'components/chatbot/chatbot.html',
             target: 'append-body',
-            css: '/components/chatbot/chatbot.css',
-            script: '/components/chatbot/chatbot.js'
+            css: 'components/chatbot/chatbot.css',
+            script: 'components/chatbot/chatbot.js'
         }
     };
 
